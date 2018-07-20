@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 
-# Author:     Héctor Molinero Fernández <hector@molinero.xyz>
+# Author:     Greg M
 # Repository: https://github.com/zant95/elementary-dropbox
 # License:    MIT, https://opensource.org/licenses/MIT
 
 # Exit on errors
-set -euo pipefail
+set -euo
 
 # Globals
 scriptDir=$(dirname "$(readlink -f "$0")")
